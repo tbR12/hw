@@ -1,2 +1,2 @@
-a_string = str( input())
-print("Hello", a_string)
+name = str( input())
+print("Hello", name)
