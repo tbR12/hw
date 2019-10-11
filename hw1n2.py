@@ -6,4 +6,5 @@ a = int( input())
 b = int( input())
 p = 2*a + b*2 
 c = a*b
-print("Периметр", p , "Площадь", c)
+print("Perimeter", p) 
+print("Square", c)
