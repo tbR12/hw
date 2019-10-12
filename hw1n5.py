@@ -7,10 +7,12 @@ if (D > 0 and a > 0):
     x2 = (-b - D**0.5)/(2*a)
     print("X1:",x1,"X2:", x2)
 elif (D == 0 and a > 0):
-    x1=(-b)/(2*a)
-    print("X1:", x1)
+     x1=(-b)/(2*a)
+     print("X1:", x1)
 elif (D < 0 and a >0):
     print("")
+elif ((a == 0)  and  (c == 0)) :
+    x1 = 0
+    print(f"X1:{x1}")
 else:
-    print('')  
-    
+    print('') 
